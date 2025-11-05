@@ -21,7 +21,7 @@ preprocesamiento-ciencia-datos/
 ├── README.md # Documentación principal del proyecto
 │
 ├── data/
-│ ├── raw/ # Datos originales (ej: iris.csv)
+│ ├── raw/ # Datos originales
 │ └── processed/ # Datos limpios listos para modelar
 │
 ├── notebooks/
@@ -31,4 +31,4 @@ preprocesamiento-ciencia-datos/
 │ └── preprocesamiento.py # Script con las etapas de limpieza y transformación
 │
 └── reports/
-└── informe.md # Informe final o bitácora del proceso
+└── informe.md # Informe final 
