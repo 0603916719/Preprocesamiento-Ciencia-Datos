@@ -9,7 +9,7 @@ El objetivo es realizar las etapas de preprocesamiento necesarias para preparar 
 - Codificación de la variable objetivo.
 - Generar un dataset final listo para análisis o modelado.
 
----
+----
 
 ## Estructura de Carpetas
 
