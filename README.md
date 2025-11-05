@@ -11,23 +11,27 @@ El objetivo es realizar las etapas de preprocesamiento necesarias para preparar 
 
 ----
 
+
 ## Estructura de Carpetas
 
 La estructura del proyecto está organizada de la siguiente manera:
 
+```text
 preprocesamiento-ciencia-datos/
-
-├── .gitignore # Archivos y carpetas a ignorar por Git
-├── README.md # Documentación principal del proyecto
+│
+├── .gitignore                 # Archivos y carpetas a ignorar por Git
+├── README.md                  # Documentación principal del proyecto
+│
 ├── data/
-├── raw/ # Datos originales
-├── processed/ # Datos limpios listos para modelar
+│   ├── raw/                   # Datos originales
+│   └── processed/             # Datos limpios listos para modelar
 │
 ├── notebooks/
-│ └── exploracion_iris.ipynb # Análisis exploratorio y visualización
+│   └── exploracion_iris.ipynb # Análisis exploratorio y visualización
 │
 ├── src/
-│ └── preprocesamiento.py # Script con las etapas de limpieza y transformación
+│   └── preprocesamiento.py    # Limpieza y transformación
 │
 └── reports/
-└── informe.md # Informe final 
+    └── informe.md             # Informe final
+
